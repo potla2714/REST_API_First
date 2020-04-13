@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-12T22:09:09 IST" name="Default suite" finished-at="2020-04-12T22:09:10 IST" duration-ms="1304">
+  <suite started-at="2020-04-13T22:51:58 IST" name="Default suite" finished-at="2020-04-13T22:52:00 IST" duration-ms="1674">
     <groups>
     </groups>
-    <test started-at="2020-04-12T22:09:09 IST" name="Default test" finished-at="2020-04-12T22:09:10 IST" duration-ms="1304">
-      <class name="com.api.test.GetAPITest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.api.test.GetAPITest@1d76aeea]" started-at="2020-04-12T22:09:09 IST" name="setUp" finished-at="2020-04-12T22:09:09 IST" duration-ms="5" status="PASS">
+    <test started-at="2020-04-13T22:51:58 IST" name="Default test" finished-at="2020-04-13T22:52:00 IST" duration-ms="1674">
+      <class name="com.api.test.PostAPITest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.api.test.PostAPITest@13c10b87]" started-at="2020-04-13T22:51:58 IST" name="setUp" finished-at="2020-04-13T22:51:58 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getAPITestWithOutHeader()[pri:1, instance:com.api.test.GetAPITest@1d76aeea]" started-at="2020-04-12T22:09:09 IST" name="getAPITestWithOutHeader" finished-at="2020-04-12T22:09:10 IST" duration-ms="931" status="PASS">
+        <test-method signature="postAPITest()[pri:0, instance:com.api.test.PostAPITest@13c10b87]" started-at="2020-04-13T22:51:58 IST" name="postAPITest" finished-at="2020-04-13T22:52:00 IST" duration-ms="1589" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getAPITestWithOutHeader -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.api.test.GetAPITest@1d76aeea]" started-at="2020-04-12T22:09:10 IST" name="setUp" finished-at="2020-04-12T22:09:10 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getAPITestWithHeaders()[pri:2, instance:com.api.test.GetAPITest@1d76aeea]" started-at="2020-04-12T22:09:10 IST" name="getAPITestWithHeaders" finished-at="2020-04-12T22:09:10 IST" duration-ms="298" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAPITestWithHeaders -->
-      </class> <!-- com.api.test.GetAPITest -->
+        </test-method> <!-- postAPITest -->
+      </class> <!-- com.api.test.PostAPITest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
